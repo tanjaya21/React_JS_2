@@ -1,0 +1,51 @@
+
+export const homeObjOne = {
+    id: 'about',
+    ligthBg: false,
+    lightText: true,
+    ligthTextDesc: true,
+    topLine: 'Premium E-banking',
+    headLine: 'Unlimited Transaction with No Admin Fees',
+    description: 'Get the access now with unlimited transaction with no admin fees and enjoy the premium features',
+    buttonLabel: 'Get Started',
+    imgStart: false,
+    img: require('../../images/image1.jpg'),
+    alt:'Money',
+    dark: true,
+    primary: true,
+    darkText: false,
+};
+
+export const homeObjTwo = {
+    id: 'discover',
+    ligthBg: false,
+    lightText: true,
+    ligthTextDesc: true,
+    topLine: 'Unlimited Access',
+    headLine: 'Unlimited Transaction with No Admin Fees',
+    description: 'Get the access now with unlimited transaction with no admin fees and enjoy the premium features',
+    buttonLabel: 'Learn More',
+    imgStart: false,
+    img: require('../../images/image2.svg'),
+    alt:'Money2',
+    dark: true,
+    primary: true,
+    darkText: false,
+};
+
+export const homeObjThree = {
+    id: 'signup',
+    ligthBg: false,
+    lightText: true,
+    ligthTextDesc: true,
+    topLine: 'Register Now',
+    headLine: 'Register Now to Receive the Premium Features for 3 Month',
+    description: 'Premium features for new membership now, lets get started',
+    buttonLabel: 'Start Now',
+    imgStart: false,
+    img: require('../../images/image3.svg'),
+    alt:'Money3',
+    dark: true,
+    primary: true,
+    darkText: false,
+};
